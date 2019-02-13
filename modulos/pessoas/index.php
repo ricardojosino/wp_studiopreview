@@ -18,9 +18,19 @@
      \Spw\Componentes\Modulo\IncluirArquivo::Componente('pessoas', 'pagina-confirmar-deletar-pessoa');
      
      
+     $controlador_paginas = new \Spw\Componentes\Modulo\ControladorDePaginas();
+     $controlador_paginas->Set_WpPage('spw-pessoas');
+     $controlador_paginas->Set_PaginaInicial('pessoas', 'home');
+     $controlador_paginas->Executar();
      
-     // GATILHOS
-     \Spw\Componentes\Modulo\Executar::Gatilho($modulo, 'menu-page');
+     $menu = new \Spw\Componentes\Wp\MenuPage();
+     $menu->Set_ConteudoDaPagina($controlador_paginas->render);
+     $menu->Set_TituloDaPagina('Pessoas');
+     $menu->Set_TituloDoMenu('Pessoas');
+     $menu->Set_WpPage('spw-pessoas');
+     $menu->Set_Posicao(5);
+     $menu->Set_Id('pagina');
+     $menu->Executar();
      
      
      

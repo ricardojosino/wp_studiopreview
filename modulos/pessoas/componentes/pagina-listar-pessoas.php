@@ -28,6 +28,7 @@
                
                $this->result_contatos = $dados->result;
                $this->rows_contatos = $dados->rows;
+               
           }
           
           
@@ -225,6 +226,7 @@
                $painel->Set_AdicionarCampo($this->InputNome());
                $painel->Set_AdicionarCampo($this->BotaoPesquisar());
                $painel->Set_AdicionarCampo($this->BotaoLimpar());
+               $painel->Set_Form_Action( \Spw\Componentes\Modulo\Link::AbrirPagina('pessoas', 'listar-pessoas', array( 'nome' => $this->pesquisar_nome ) ) );
                $painel->Executar();
                
                return $painel->render;

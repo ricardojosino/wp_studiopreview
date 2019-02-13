@@ -480,7 +480,7 @@
      $botao_salvar->Executar();
      
      $botao_excluir = new \Spw\Componentes\UI\Admin\Botao();
-     $botao_excluir->Set_AdicionarBotao_Excluir('bot_deletar', 'Excluir', '#', null);
+     $botao_excluir->Set_AdicionarBotao_Excluir('bot_deletar', 'Excluir', \Spw\Componentes\Modulo\Link::ExecutarGatilho('post-type', 'deletar-post-type', 'id_post_type=' . $_GET['id_post_type']), null);
      $botao_excluir->Executar();
      
      $botao_confirmar = new \Spw\Componentes\UI\Admin\Botao();
@@ -563,12 +563,6 @@
      $painel_botoes->Set_AdicionarBotao($botao_excluir->render);
      $painel_botoes->Executar();
      
-     $modal_deletar = new \Spw\Componentes\UI\Admin\Modal();
-     $modal_deletar->Set_Id('modal_01');
-     $modal_deletar->Set_BotaoId('bot_deletar');
-     $modal_deletar->Set_AdicionarConteudo('<h2>Deseja mesmo excluir?</h2>');
-     $modal_deletar->Set_AdicionarConteudo( $painel_botao_confirmar->render );
-     $modal_deletar->Executar();
      
      $pagina = new \Spw\Componentes\UI\Admin\Pagina();
      $pagina->Set_Titulo(SPW_TITULO);
@@ -586,7 +580,6 @@
      $pagina->Set_AdicionarConteudo( $painel_labels->render );
      $pagina->Set_AdicionarConteudo( $painel_supports->render );
      $pagina->Set_AdicionarConteudo( $painel_botoes->render );
-     $pagina->Set_AdicionarConteudo( $modal_deletar->render );
      $pagina->Executar();
 
      \Spw\Componentes\Funcoes::Show($pagina->render);
