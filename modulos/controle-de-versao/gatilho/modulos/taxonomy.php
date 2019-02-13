@@ -1,0 +1,32 @@
+<?php
+
+     $tabela = new \Spw\Componentes\Mysql\CriarTabela();
+     $tabela->Set_NomeDaTabela('spw_taxonomy');
+     $tabela->Set_AdicionarColuna("id_taxonomy int(11) NOT NULL AUTO_INCREMENT");
+     $tabela->Set_AdicionarColuna("time timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP");
+     $tabela->Set_AdicionarColuna("lixeira CHAR(1) NOT NULL DEFAULT 'Y'");
+     $tabela->Set_AdicionarColuna("post_type VARCHAR(100) null");
+     $tabela->Set_AdicionarColuna("taxonomy VARCHAR(100) null");
+     $tabela->Set_AdicionarColuna("hierarchical char(1) null default 'Y'");
+     $tabela->Set_AdicionarColuna("show_ui char(1) null default 'Y'");
+     $tabela->Set_AdicionarColuna("show_in_tag_cloud char(1) null default 'Y'");
+     $tabela->Set_AdicionarColuna("show_tag_cloud char(1) null default 'Y'");
+     $tabela->Set_AdicionarColuna("show_in_nav_menus char(1) null default 'Y'");
+     $tabela->Set_AdicionarColuna("show_admin_column char(1) null default 'Y'");
+     $tabela->Set_AdicionarColuna("query_var char(1) null default 'Y'");
+     $tabela->Set_AdicionarColuna("rewrite char(1) null default 'Y'");
+     $tabela->Set_AdicionarColuna("slug varchar(100) null");
+     $tabela->Set_AdicionarColuna("meta_box_cb varchar(100) null");
+     $tabela->Set_AdicionarColuna("labels_name varchar(100) null");
+     $tabela->Set_AdicionarColuna("labels_menu_name varchar(100) null");
+     $tabela->Set_AdicionarColuna("labels_update_item varchar(100) null");
+     $tabela->Set_AdicionarColuna("labels_add_new_item varchar(100) null");
+     $tabela->Set_AdicionarColuna("labels_singular_name varchar(100) null");
+     $tabela->Set_AdicionarColuna("labels_add_new varchar(100) null");
+     $tabela->Set_AdicionarColuna("labels_edit_item varchar(100) null");
+     $tabela->Set_AdicionarColuna("labels_new_item varchar(100) null");
+     $tabela->Set_AdicionarColuna("labels_view_item varchar(100) null");
+     $tabela->Set_AdicionarColuna("labels_search_items varchar(100) null");
+     $tabela->Set_AdicionarColuna("labels_not_found varchar(100) null");
+     $tabela->Set_ChavePrimaria('id_taxonomy');
+     $tabela->Executar();

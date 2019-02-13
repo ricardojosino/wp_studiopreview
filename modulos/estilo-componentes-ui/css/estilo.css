@@ -1,0 +1,1366 @@
+
+/* Spw_UI_Components_TituloDescricaoImagem */
+
+.spw-ui-components-titulo-descricao-imagem
+{
+    position: relative;
+    width: auto;
+    height: auto;
+    margin-bottom: 70px;
+}
+
+
+.spw-ui-components-titulo-descricao-imagem .spw-wrap
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+}
+
+
+.spw-ui-components-titulo-descricao-imagem .spw-wrap .spw-box-01
+{
+    position: relative;
+    width: 100%;
+    height: 277px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    order: 1;
+}
+
+
+.spw-ui-components-titulo-descricao-imagem .spw-wrap .spw-box-01.spw-margin-left
+{
+    margin-left: 0;
+    margin-bottom: 15px;
+}
+
+
+.spw-ui-components-titulo-descricao-imagem .spw-wrap .spw-box-01.spw-margin-right
+{
+    margin-right: 0;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+.spw-ui-components-titulo-descricao-imagem .spw-wrap .spw-box-02
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    order: 2;
+    padding-left: 20px;
+}
+
+
+.spw-ui-components-titulo-descricao-imagem .spw-wrap .spw-box-02 .spw-ui-titulo-3
+{
+    margin: 0;
+    padding: 0;
+    font-weight: 800;
+    line-height: 20px;
+    margin-bottom: 23px;
+    
+}
+
+
+.spw-ui-components-titulo-descricao-imagem .spw-wrap .spw-box-02 .spw-ui-components-botao
+{
+    color: inherit;
+    font-weight: bold;
+}
+
+
+.spw-ui-components-titulo-descricao-imagem .spw-wrap .spw-box-02 .spw-ui-components-botao:hover
+{
+    text-decoration: none;
+}
+
+
+.spw-ui-components-titulo-descricao-imagem .spw-wrap .spw-box-02 p
+{
+    color: inherit;
+    text-align: left;
+}
+
+
+@media (min-width: 768px)
+{
+    
+    .spw-ui-components-titulo-descricao-imagem .spw-wrap
+    {
+        position: relative;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: stretch;
+    }
+    
+    
+    .spw-ui-components-titulo-descricao-imagem .spw-wrap .spw-box-01
+    {
+        position: relative;
+        width: 370px;
+        height: 277px;
+        order: 0 ;
+    }
+    
+    
+    .spw-ui-components-titulo-descricao-imagem .spw-wrap .spw-box-01.spw-margin-left
+    {
+        margin-left: 15px;
+        margin-bottom: 0;
+    }
+
+
+    .spw-ui-components-titulo-descricao-imagem .spw-wrap .spw-box-01.spw-margin-right
+    {
+        margin-right: 15px;
+        margin-bottom: 0;
+    }
+    
+    
+    
+    .spw-ui-components-titulo-descricao-imagem .spw-wrap .spw-box-02
+    {
+        position: relative;
+        width: 100%;
+        height: auto;
+        order: 0;
+    }
+    
+    
+    
+}
+
+
+
+/* BOTAO */
+
+.spw-ui-components-botao
+{
+    position: relative;
+    width: 100%;
+    max-width: 190px;
+    height: 60px;
+    background-color: #eee;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    font-weight: bold;
+    
+}
+
+
+.spw-ui-components-botao a
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    font-weight: bold;
+    text-decoration: none;
+    z-index: 2;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.spw-ui-components-botao .spw-case-icone
+{
+   
+}
+
+
+
+/* POSTS - Spw_UI_Components_Post */
+
+.spw-ui-components-post
+{
+    position: relative;
+    width: 100%;
+    max-width: 1057px;
+    height: auto;
+    min-height: 283px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 45px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+
+.spw-ui-components-post br
+{
+    display: none;
+}
+
+
+
+.spw-ui-components-post .spw-box-imagem
+{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 15px;
+    order: 1;
+}
+
+
+.spw-ui-components-post .spw-box-textos
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    order: 2;
+}
+
+
+
+.spw-ui-components-post .spw-box-textos .spw-ui-titulo-3
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+
+.spw-ui-components-post .spw-box-textos .spw-ui-descricao
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+
+
+@media (min-width: 768px)
+{
+    
+    
+    .spw-ui-components-post
+    {
+        position: relative;
+        width: 100%;
+        height: auto;
+        min-height: 283px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: stretch;
+    }
+    
+    
+    .spw-ui-components-post br
+    {
+        display: block;
+    }
+    
+    
+    .spw-ui-components-post .spw-box-imagem
+    {
+        position: relative;
+        width: 350px;
+        height: auto;
+        margin-bottom: 0;
+        order: 0;
+    }
+    
+
+
+    .spw-ui-components-post .spw-box-textos
+    {
+        position: relative;
+        width: 300px;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: space-between;
+        order: 0;
+    }
+    
+}
+
+
+
+
+
+@media (min-width: 1024px)
+{
+    
+    
+    .spw-ui-components-post
+    {
+        position: relative;
+        width: 100%;
+        max-width: 1057px;
+        height: auto;
+        min-height: 283px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: stretch;
+    }
+    
+    
+    .spw-ui-components-post .spw-box-imagem
+    {
+        position: relative;
+        width: 480px;
+        height: auto;
+        margin-bottom: 0;
+        order: 0;
+    }
+    
+
+
+    .spw-ui-components-post .spw-box-textos
+    {
+        position: relative;
+        width: 380px;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: space-between;
+        order: 0;
+    }
+    
+}
+
+
+
+
+
+@media (min-width: 1200px)
+{
+    
+    
+    .spw-ui-components-post
+    {
+        position: relative;
+        width: 100%;
+        max-width: 1057px;
+        height: auto;
+        min-height: 283px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: stretch;
+    }
+    
+    
+    .spw-ui-components-post .spw-box-imagem
+    {
+        position: relative;
+        width: 480px;
+        height: auto;
+        margin-bottom: 0;
+        order: 0;
+    }
+    
+
+
+    .spw-ui-components-post .spw-box-textos
+    {
+        position: relative;
+        width: 480px;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        order: 0;
+    }
+    
+}
+
+
+
+/* ARTIGO */
+
+.spw-ui-components-artigo
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-width: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+}
+
+
+.spw-ui-components-artigo .spw-wrap
+{
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+
+.spw-ui-components-artigo a
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    border:5px solid transparent;
+}
+
+
+.spw-ui-components-artigo a:hover
+{
+    border: 5px solid #EEE;
+}
+
+
+.spw-ui-components-artigo .spw-imagem
+{
+    position: relative;
+    width: 100%;
+    height: 277px;
+    background-position: top left;
+}
+
+
+.spw-ui-components-artigo .spw-titulo
+{
+    
+    position: relative;
+    width: 100%;
+    height: auto;
+    font-weight: 800;
+    font-size: 24px;
+    text-align: center;
+    color: #4F4F4F;
+    margin: 0;
+    padding: 0;
+    margin-top: 25px;
+}
+
+
+.spw-ui-components-artigo .spw-descricao
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 18px;
+    
+}
+
+
+
+@media (min-width: 1024px)
+
+{
+    
+    .spw-ui-components-artigo
+    {
+        position: relative;
+        width: 100%;
+        height: auto;
+        max-width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-bottom: 50px;
+    }
+    
+    
+    
+    .spw-ui-components-artigo .spw-imagem
+    {
+        position: relative;
+        width: 100%;
+        height: 277px;
+    }
+    
+}
+
+
+
+@media (min-width: 1200px)
+
+{
+    
+    .spw-ui-components-artigo
+    {
+        position: relative;
+        width: 100%;
+        height: auto;
+        max-width: 370px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-bottom: 50px;
+    }
+    
+    
+    .spw-ui-components-artigo .spw-imagem
+    {
+        position: relative;
+        width: 100%;
+        height: 277px;
+    }
+    
+}
+
+
+
+/* BARRA */
+
+.spw-ui-components-barra
+{
+    position: relative;
+    width: auto;
+    height: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-bottom-width: 1px;
+    border-bottom-color: #E0E0E0;
+    border-bottom-style: solid;
+    
+}
+
+
+
+/* CARD ENDERECO - Spw_UI_Components_CardEndereco */
+
+.spw-ui-components-card-endereco
+{
+    position: relative;
+    width: 100%;
+    height: 370px;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: stretch;
+    color: #4F4F4F;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+.spw-ui-components-card-endereco a
+{
+    position: absolute;
+    display: block;
+    z-index: 1;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.spw-ui-components-card-endereco .spw-card-icone
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.spw-ui-components-card-endereco .spw-card-icone img
+{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+
+.spw-ui-components-card-endereco .spw-ui-titulo-3
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+    font-weight: 800;
+    color: #4F4F4F;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+
+.spw-ui-components-card-endereco .spw-ui-descricao
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+.spw-ui-components-card-endereco .spw-card-subtitulo
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-weight: 800;
+    
+}
+
+
+@media (min-width: 768px) 
+{
+    
+    .spw-ui-components-card-endereco
+    {
+        position: relative;
+        width: 240px;
+        height: 370px;
+        padding: 20px;
+    }
+    
+}
+
+
+@media (min-width: 1024px) 
+{
+    
+    .spw-ui-components-card-endereco
+    {
+        position: relative;
+        width: 310px;
+        height: 370px;
+    }
+    
+}
+
+
+@media (min-width: 1200px) 
+{
+    
+    .spw-ui-components-card-endereco
+    {
+        position: relative;
+        width: 370px;
+        height: 370px;
+    }
+    
+}
+
+
+
+/* ESPACAMENTO */
+
+.spw-ui-components-espacamento
+{
+    position: relative;
+    width: auto;
+    height: auto;
+    display: block;
+    clear: both;
+}
+
+
+
+/* COMUNICAÇÃO - FORM ENDERECO E MAPA */
+
+.spw-ui-components-comunicacao
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 600px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.spw-ui-components-comunicacao .spw-background
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-color: #fff;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
+
+.spw-ui-components-comunicacao .spw-wrap
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 600px;
+    box-sizing: border-box;
+    padding-top: 0px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    z-index: 1;
+   
+}
+
+
+
+.spw-ui-components-comunicacao .spw-wrap .spw-box-endereco
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 424px;
+    background-color: #333;
+    box-sizing: border-box;
+    padding: 35px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.spw-ui-components-comunicacao .spw-wrap .spw-box-endereco .spw-itens
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.spw-ui-components-comunicacao .spw-wrap .spw-box-endereco .spw-item
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+
+.spw-ui-components-comunicacao .spw-wrap .spw-box-endereco .spw-item .spw-icone
+{
+    width: 20px;
+    height: auto;
+    margin-right: 15px;
+}
+
+
+.spw-ui-components-comunicacao .spw-wrap .spw-box-endereco .spw-item .spw-icone img
+{
+    max-width: 30px;
+}
+
+
+
+.spw-ui-components-comunicacao .spw-wrap .spw-box-endereco .spw-item .spw-texto
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 30px;
+    color: #FFF;
+    font-weight: 300;
+    line-height: normal;
+    font-size: 18px;
+}
+
+
+.spw-ui-components-comunicacao .spw-wrap .spw-box-endereco .spw-barra
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #FFF;
+    margin-bottom: 45px;
+}
+
+
+.spw-ui-components-comunicacao .spw-wrap .spw-box-endereco .spw-redes-sociais
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+
+.spw-ui-components-comunicacao .spw-wrap .spw-box-endereco .spw-redes-sociais .spw-item
+{
+    position: relative;
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: none;
+    min-width: none;
+    max-height: none;
+    min-width: none;
+    margin-right: 25px;
+}
+
+
+
+.spw-ui-components-comunicacao .spw-wrap .spw-box-mapa
+{
+    position: relative;
+    width: 100%;
+    height: 519px;
+    background-color: #CCC;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.spw-ui-components-comunicacao .spw-wrap .spw-box-form
+{
+    position: relative;
+    width: 100%;
+    height: 507px;
+    margin-right: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+
+.spw-ui-components-comunicacao .spw-wrap .spw-box-form label
+{
+    font-weight: 300;
+    font-size: 18px;
+    color: #4F4F4F;
+}
+
+
+
+.spw-ui-components-comunicacao .spw-wrap .spw-box-form input[type=text], input[type=email]
+{
+   background-color: #EEE; 
+   border: 0;
+   color: #000;
+   border: 1px solid #CCC;
+
+}
+
+
+.spw-ui-components-comunicacao .spw-wrap .spw-box-form textarea
+{
+   background-color: #EEE; 
+   border: 0;
+   color: #000;
+   border: 1px solid #CCC;
+}
+
+
+.spw-ui-components-comunicacao .spw-wrap .spw-box-form input[type=submit]
+{
+    width: 190px;
+    height: 60px;
+    text-align: center;
+    border: 0;
+    color: #333;
+    background-color: #EEE;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+@media (min-width:1024px) 
+
+{
+    
+ 
+    .spw-ui-components-comunicacao .spw-wrap
+    {
+        position: relative;
+        width: 100%;
+        height: auto;
+        min-height: 600px;
+        box-sizing: border-box;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        z-index: 1;
+
+    }
+    
+    
+    
+    .spw-ui-components-comunicacao .spw-wrap .spw-box-endereco
+    {
+        position: relative;
+        width: 369px;
+        margin-left: 0;
+        margin-right: 0;
+
+    }
+    
+    
+
+
+    .spw-ui-components-comunicacao .spw-wrap .spw-box-mapa
+    {
+        position: relative;
+        width: 370px;
+        height: auto;
+        min-height: 520px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+
+    .spw-ui-components-comunicacao .spw-wrap .spw-box-form
+    {
+        position: relative;
+        width: 323px;
+        height: auto;
+        min-height: 520px;
+        margin-right: 23px;
+        padding: 20px;
+        margin-left: 0;
+
+    }
+    
+    
+    .spw-ui-components-comunicacao .spw-background
+    {
+
+        display: block;
+    }
+    
+    
+    .spw-ui-components-comunicacao .spw-wrap .spw-box-form input[type=text], input[type=email]
+    {
+       border: 0;
+
+    }
+
+
+    .spw-ui-components-comunicacao .spw-wrap .spw-box-form textarea
+    {
+      border: 0;
+    }
+    
+}
+
+
+@media (min-width: 1200px)
+{
+    
+    .spw-ui-components-comunicacao .spw-wrap .spw-box-form
+    {
+        padding: 0;
+    }
+}
+
+
+
+/* PERFIL EQUIPE */
+
+.spw-ui-components-perfil-equipe
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+
+.spw-ui-components-perfil-equipe a
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: block;
+    z-index: 1;
+}
+
+
+
+.spw-ui-components-perfil-equipe .spw-foto
+{
+    position: relative;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.spw-ui-components-perfil-equipe .spw-perfil-content
+{
+    position: relative;
+    width: auto;
+    height: auto;
+    margin-top: 21px;
+}
+
+
+.spw-ui-components-perfil-equipe .spw-perfil-content .spw-ui-titulo-4
+{
+    text-align: center;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+
+.spw-ui-components-perfil-equipe .spw-perfil-content .spw-descricao
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+
+@media (min-width: 768px)
+{
+    
+    .spw-ui-components-perfil-equipe
+    {
+        position: relative;
+        width: 274px;
+        height: auto;
+    }
+    
+    .spw-ui-components-perfil-equipe .spw-foto
+    {
+        position: relative;
+        width: 274px;
+        height: 300px;
+        overflow: hidden;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+}
+
+
+
+
+/* SOLUCOES */
+
+.spw-ui-components-solucoes
+{
+    position: relative;
+    width: auto;
+    height: auto;
+}
+
+
+.spw-ui-components-solucoes .spw-box
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: #FFF;
+}
+
+
+.spw-ui-components-solucoes .spw-box .spw-box-left
+{
+    position: relative;
+    width: 100%;
+    max-width: none;
+    height: auto;
+    min-height: 422px;
+}
+
+
+.spw-ui-components-solucoes .spw-box .spw-box-left img
+{
+    width: 100%;
+    max-width: none;
+    
+}
+
+
+.spw-ui-components-solucoes .spw-box .spw-box-right
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 422px;
+    box-sizing: border-box;
+    padding: 60px;
+}
+
+
+.spw-ui-components-solucoes .spw-box .spw-box-right .spw-ui-titulo-2
+{
+    font-weight: 800;
+    color:#4F4F4F;
+    margin: 0;
+    padding: 0;
+}
+
+
+.spw-ui-components-solucoes .spw-box .spw-box-right .spw-descricao
+{
+    font-weight: 300;
+    color: #4F4F4F;
+    margin-top: 30px;
+}
+
+
+
+.spw-ui-components-solucoes .spw-box .spw-box-right .spw-botao
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+
+
+.spw-ui-components-solucoes .spw-box .spw-box-right .spw-botao a
+{
+    width: 190px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #4F4F4F;
+    border-radius: 50px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 60px;
+}
+
+
+
+.spw-ui-components-solucoes .spw-box .spw-box-right .spw-botao a:hover
+{
+    text-decoration: none;
+}
+
+
+
+@media (min-width: 1024px)
+
+{
+    
+    .spw-ui-components-solucoes .spw-box
+    {
+        position: relative;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        background-color: #FFF;
+    }
+    
+    
+}
+
+
+
+
+@media (min-width: 1200px)
+
+{
+    
+    
+    .spw-ui-components-solucoes .spw-box
+    {
+        position: relative;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        background-color: #FFF;
+    }
+    
+    
+    
+    .spw-ui-components-solucoes .spw-box .spw-box-left
+    {
+        position: relative;
+        width: 100%;
+        max-width: 563px;
+        height: auto;
+        min-height: 422px;
+    }
+    
+    
+    .spw-ui-components-solucoes .spw-box .spw-box-right .spw-ui-titulo-2
+    {
+        font-weight: 800;
+        color:#4F4F4F;
+        margin: 0;
+        padding: 0;
+    }
+
+    
+}
+
+
+/* Spw_UI_Components_Album */
+.spw-ui-components-album
+{
+    position: relative;
+    width: auto;
+    height: auto;
+}
+
+
+.spw-ui-components-album .spw-itens
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+
+.spw-ui-components-album .spw-itens .spw-item
+{
+    position: relative;
+    width: 180px;
+    height: 135px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    padding: 10px;
+    overflow: hidden;
+    border: 1px solid #CCC;
+    margin-bottom: 10px;
+}
+
+
+.spw-ui-components-album .spw-itens .spw-item img
+{
+    max-width: 100%;
+    max-height: 115px;
+    
+}
+
+
+
+.spw-ui-componentes-paginacao
+{
+     position: relative;
+     width: 100%;
+     height: auto;
+     margin-top: 50px;
+     margin-bottom: 50px;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     justify-content: center;
+}
+
+
+.spw-ui-componentes-paginacao .page-numbers
+{
+     position: relative;
+     width: auto;
+     height: auto;
+     padding: 5px 10px 5px 10px;
+     display: block;
+     font-size: 16px;
+     color: inherit;
+     border-bottom: 3px solid transparent;
+     margin-right: 5px;
+}
+
+
+.spw-ui-componentes-paginacao .page-numbers:hover
+{
+     border-bottom: 3px solid #EEE;
+}
+
+
+.spw-ui-componentes-paginacao .page-numbers.current
+{
+     background-color: #EEE;
+     font-weight: bold;
+}
+
+
+
+
+
+
+
+

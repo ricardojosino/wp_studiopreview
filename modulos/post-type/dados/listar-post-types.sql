@@ -1,0 +1,1 @@
+select * from spw_post_type as p where p.lixeira = 'N' order by p.time ASC;

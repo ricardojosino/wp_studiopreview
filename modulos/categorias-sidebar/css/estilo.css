@@ -1,0 +1,55 @@
+.spw-sidebar-categorias
+{
+     position: relative;
+     width: auto;
+     height: auto;
+     color: inherit;
+}
+
+
+.spw-sidebar-categorias h2
+{
+     margin: 0;
+     padding: 0;
+}
+
+
+.spw-sidebar-categorias ul
+{
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     margin-top: 25px;
+}
+
+
+.spw-sidebar-categorias ul li
+{
+     position: relative;
+     width: auto;
+     height: 50px;
+     border-bottom: 1px solid #EEE;
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+}
+
+
+.spw-sidebar-categorias ul li.active
+{
+     font-weight: bold;
+}
+
+
+.spw-sidebar-categorias ul li a
+{
+     color: inherit;
+     display: block;
+     width: 100%;
+     height: 100%;
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+}
+
+

@@ -1,0 +1,83 @@
+<?php
+
+     $tax_categorias = new \Spw\Componentes\Wp\Taxonomia();
+     $tax_categorias->Set_PostType('spw-imoveis');
+     $tax_categorias->Set_Taxonomia('spw-imoveis-categoria');
+     $tax_categorias->Set_AtivarHierarquia('Y');
+     $tax_categorias->Set_AtivarQueryVar('Y');
+     $tax_categorias->Set_Rewrite('Y');
+     $tax_categorias->Set_Slug('imoveis-categoria');
+     $tax_categorias->Set_ExibirNoMenuDashboard('Y');
+     $tax_categorias->Set_ExibirNoMenuDoSite('Y');
+     $tax_categorias->Set_ExibirNaColunaAdmin('Y');
+     $tax_categorias->Set_MetaBox(false);
+     $tax_categorias->Set_Labels_Nome('Categorias');
+     $tax_categorias->Set_Labels_NomeSingular('Categoria');
+     $tax_categorias->Set_Labels_NomeDoMenu('Categorias');
+     $tax_categorias->Set_Labels_AdicionarNovo('Inserir categoria');
+     $tax_categorias->Set_Labels_AdicionarNovoItem('Inserir categoria');
+     $tax_categorias->Set_Labels_EditarItem('Editar');
+     $tax_categorias->Set_Labels_VisualizarItem('Visualizar');
+     $tax_categorias->Executar();
+     
+     
+     $tax_negocio = new \Spw\Componentes\Wp\Taxonomia();
+     $tax_negocio->Set_PostType('spw-imoveis');
+     $tax_negocio->Set_Taxonomia('spw-imoveis-negocio');
+     $tax_negocio->Set_AtivarHierarquia('Y');
+     $tax_negocio->Set_AtivarQueryVar('Y');
+     $tax_negocio->Set_Rewrite('Y');
+     $tax_negocio->Set_Slug('imoveis-negocio');
+     $tax_negocio->Set_ExibirNoMenuDashboard('Y');
+     $tax_negocio->Set_ExibirNoMenuDoSite('Y');
+     $tax_negocio->Set_ExibirNaColunaAdmin('Y');
+     $tax_negocio->Set_MetaBox(false);
+     $tax_negocio->Set_Labels_Nome('Negócio');
+     $tax_negocio->Set_Labels_NomeSingular('Negócio');
+     $tax_negocio->Set_Labels_NomeDoMenu('Negócio');
+     $tax_negocio->Set_Labels_AdicionarNovo('Inserir tipo');
+     $tax_negocio->Set_Labels_AdicionarNovoItem('Inserir tipo');
+     $tax_negocio->Set_Labels_EditarItem('Editar');
+     $tax_negocio->Set_Labels_VisualizarItem('Visualizar');
+     $tax_negocio->Executar();
+     
+     $tax_finalidade = new \Spw\Componentes\Wp\Taxonomia();
+     $tax_finalidade->Set_PostType('spw-imoveis');
+     $tax_finalidade->Set_Taxonomia('spw-imoveis-finalidade');
+     $tax_finalidade->Set_AtivarHierarquia('Y');
+     $tax_finalidade->Set_AtivarQueryVar('Y');
+     $tax_finalidade->Set_Rewrite('Y');
+     $tax_finalidade->Set_Slug('imoveis-finalidade');
+     $tax_finalidade->Set_ExibirNoMenuDashboard('Y');
+     $tax_finalidade->Set_ExibirNoMenuDoSite('Y');
+     $tax_finalidade->Set_ExibirNaColunaAdmin('Y');
+     $tax_finalidade->Set_MetaBox(false);
+     $tax_finalidade->Set_Labels_Nome('Finalidade');
+     $tax_finalidade->Set_Labels_NomeSingular('Finalidade');
+     $tax_finalidade->Set_Labels_NomeDoMenu('Finalidade');
+     $tax_finalidade->Set_Labels_AdicionarNovo('Inserir finalidade');
+     $tax_finalidade->Set_Labels_AdicionarNovoItem('Inserir finalidade');
+     $tax_finalidade->Set_Labels_EditarItem('Editar');
+     $tax_finalidade->Set_Labels_VisualizarItem('Visualizar');
+     $tax_finalidade->Executar();
+     
+     $tax_destaque = new \Spw\Componentes\Wp\Taxonomia();
+     $tax_destaque->Set_PostType('spw-imoveis');
+     $tax_destaque->Set_Taxonomia('spw-imoveis-destaque');
+     $tax_destaque->Set_AtivarHierarquia('Y');
+     $tax_destaque->Set_AtivarQueryVar('Y');
+     $tax_destaque->Set_Rewrite('Y');
+     $tax_destaque->Set_Slug('imoveis-destaque');
+     $tax_destaque->Set_ExibirNoMenuDashboard('Y');
+     $tax_destaque->Set_ExibirNoMenuDoSite('Y');
+     $tax_destaque->Set_ExibirNaColunaAdmin('Y');
+     $tax_destaque->Set_MetaBox(false);
+     $tax_destaque->Set_Labels_Nome('Destaque');
+     $tax_destaque->Set_Labels_NomeSingular('Destaque');
+     $tax_destaque->Set_Labels_NomeDoMenu('Destaque');
+     $tax_destaque->Set_Labels_AdicionarNovo('Inserir destaque');
+     $tax_destaque->Set_Labels_AdicionarNovoItem('Inserir destaque');
+     $tax_destaque->Set_Labels_EditarItem('Editar');
+     $tax_destaque->Set_Labels_VisualizarItem('Visualizar');
+     $tax_destaque->Executar();
+     
